@@ -1,0 +1,81 @@
+
+{
+	"form":[
+		"field1",
+		{
+			"field2":"number"
+		},
+		{
+			"field3":{
+				"type":"text",
+				"length":10
+			}
+		}
+	]
+}
+
+
+{
+	"form":[
+		"field1", 
+		{
+			"field2":"number"	
+		},
+		{
+			"field3":{
+				"type":"text",
+				"length":10
+			}			
+		},
+		{
+			"page1":[
+				"field1",
+				"field2":"number",
+				"field3":{
+					"type":"number",
+					"length":10
+				}
+			]
+		}
+	]
+}
+
+
+
+
+{
+	"form":[
+		"field1", 
+		{
+			"field2":"number"	
+		},
+		{
+			"field3":{
+				"type":"text",
+				"length":10
+			}			
+		},
+		{
+			"page1":[
+				"field1",
+				{
+					"field2":"number",
+				},
+				{
+					"field3":{
+						"type":"number",
+						"length":10
+					}
+				},
+				{
+					"page1_section1":[
+						"page1_section1_field1",
+						{
+							"page1_section1_field2":"number"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GridViewTest</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_value">##$$$%%%##</string>
+    <string name="viewHolder">viewHolder</string>
+    <string name="object">viewHolder</string>
+    <string name="rg_object">rg_object</string>
+
+    <item type="id" name="viewHolder"/>
+    <item type="id" name="object"/>
+    <item type="id" name="rg_object"/>
+
+</resources>
