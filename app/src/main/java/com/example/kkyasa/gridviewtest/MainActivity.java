@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         fn_ed.setContentType("name");
         fn_ed.setKey("First Name");
         fn_ed.setValue(getString(R.string.dummy_value));
-
         jsonMap.add(0, fn_ed);
 
         ElementDetails ln_ed = new ElementDetails();
